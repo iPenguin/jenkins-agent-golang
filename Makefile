@@ -1,5 +1,5 @@
 BUILD_ID := $(shell git rev-parse --short HEAD 2>/dev/null || echo no-commit-id)
-IMAGE_NAME := anubhavmishra/jnlp-slave-golang
+IMAGE_NAME := ipenguin/jenkins-agent-golang
 
 .DEFAULT_GOAL := help
 help: ## Show available targets

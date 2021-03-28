@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libc6-dev \
     make \
     jq \
+    git \
     && rm -rf /var/lib/apt/lists/*
 
 ENV GOLANG_VERSION 1.10.3
